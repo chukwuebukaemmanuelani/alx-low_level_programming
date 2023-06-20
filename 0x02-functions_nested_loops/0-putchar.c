@@ -1,20 +1,23 @@
-#include "holberton.h"
+#include <stdio.h>
+#include <stdlib.h>
+
 /**
- * main - Entry block
- * Description: prints holberton on new line
+ * main - print out _putchar without using printf
+ *
  * Return: 0
  */
+
 int main(void)
 {
-	char c[10] = "Holberton";
+	putchar('_');
+	putchar('p');
+	putchar('u');
+	putchar('t');
+	putchar('c');
+	putchar('h');
+	putchar('a');
+	putchar('r');
+	putchar('\n');
 
-	int i = 0;
-
-	while (i < 9)
-	{
-		_putchar(c[i]);
-		i++;
-	}
-	_putchar('\n');
 	return (0);
 }
