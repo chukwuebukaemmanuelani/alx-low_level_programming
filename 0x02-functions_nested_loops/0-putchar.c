@@ -1,16 +1,16 @@
-#include "main.h"
+#include "holberton.h"
 /**
- * main - Entry Block
-  *Description: prints _putchar followed by a new line
+ * main - Entry block
+ * Description: prints holberton on new line
  * Return: 0
  */
 int main(void)
 {
-	char c[8] = "_putchar";
+	char c[10] = "Holberton";
 
 	int i = 0;
 
-	while (i < 8)
+	while (i < 9)
 	{
 		_putchar(c[i]);
 		i++;
